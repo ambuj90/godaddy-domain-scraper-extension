@@ -1,0 +1,29 @@
+body {
+    width: 250px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#results {
+    margin-top: 10px;
+    font-size: 14px;
+}

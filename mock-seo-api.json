@@ -1,0 +1,50 @@
+[
+  {
+    "wayback_report": {
+      "first_snapshot": "2003-07-15",
+      "total_snapshots": 128,
+      "last_snapshot": "2024-12-01"
+    },
+    "backlinks_report": {
+      "total_backlinks": 5421,
+      "do_follow": 3710,
+      "no_follow": 1711
+    },
+    "DR": 55,
+    "AR": 302120,
+    "UR": 46,
+    "RD": 321
+  },
+  {
+    "wayback_report": {
+      "first_snapshot": "2001-01-05",
+      "total_snapshots": 98,
+      "last_snapshot": "2024-11-20"
+    },
+    "backlinks_report": {
+      "total_backlinks": 10452,
+      "do_follow": 7821,
+      "no_follow": 2631
+    },
+    "DR": 72,
+    "AR": 101200,
+    "UR": 65,
+    "RD": 1432
+  },
+  {
+    "wayback_report": {
+      "first_snapshot": "2011-01-05",
+      "total_snapshots": 92,
+      "last_snapshot": "2022-11-20"
+    },
+    "backlinks_report": {
+      "total_backlinks": 10252,
+      "do_follow": 7801,
+      "no_follow": 2611
+    },
+    "DR": 52,
+    "AR": 11200,
+    "UR": 25,
+    "RD": 1132
+  }
+]

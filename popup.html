@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoDaddy Scraper</title>
+    <script src="popup.js" defer></script>
+    <script src="download.js" defer></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 300px;
+        padding: 10px;
+      }
+      button {
+        padding: 8px;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 10px;
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(9, 9, 121, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+        color: #fff;
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 14px;
+      }
+      ul {
+        padding: 0;
+        list-style-type: none;
+      }
+      li {
+        padding: 5px 0;
+      }
+      h3 {
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>GoDaddy Auctions</h3>
+    <button id="scrapeButton">Get Domains</button>
+    <ul id="domainList"></ul>
+    <button id="downloadButton" style="display: none">Download CSV</button>
+    <button id="seoReportButton" style="display: none">
+      View Mock SEO Report
+    </button>
+    <div id="seoReport"></div>
+  </body>
+</html>

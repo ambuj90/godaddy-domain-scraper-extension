@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "GoDaddy Domain Scraper latest",
+  "version": "1.0",
+  "description": "Scrape and download domain name lists from GoDaddy Auctions",
+  "permissions": ["activeTab", "scripting", "downloads", "storage", "tabs"],
+  "host_permissions": [
+    "https://auctions.godaddy.com/*",
+    "http://localhost:3000/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://auctions.godaddy.com/beta*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["mock-seo-api.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
